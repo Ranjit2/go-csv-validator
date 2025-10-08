@@ -15,5 +15,5 @@ This is a **CLI tool in Go** to validate CSV files. It supports:
 1. **Run the program:**
 
 ```bash
-cd csv-validator
+cd go-csv-validator
 go run main.go
