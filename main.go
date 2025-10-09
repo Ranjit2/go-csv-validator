@@ -12,7 +12,6 @@ var emailRegex = regexp.MustCompile(`^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-
 var phoneRegex = regexp.MustCompile(`^\d{10}$`)
 
 func main() {
-	// Ask user to enter CSV file path
 	var filePath string
 	fmt.Print("Enter CSV file path: ")
 	fmt.Scanln(&filePath)
@@ -99,7 +98,6 @@ func main() {
 		}
 	}
 
-	// Print summary
 	if errorsFound {
 		fmt.Println("\nSuccessfully run: There are errors")
 		for _, msg := range errorMessages {
